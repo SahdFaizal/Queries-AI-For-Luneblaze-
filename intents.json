@@ -1,0 +1,123 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["hello", "hi", "hey"],
+        "responses": ["Hello!", "Hi there, how can I assist you?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["bye", "see you later", "goodbye"],
+        "responses": ["Goodbye! Have a great day!"]
+    },
+    {
+        "tag": "sqaa_question_1",
+        "patterns": ["When can a school undertake Assessment on SQAAF Portal?", 
+                     "What is the deadline for schools to complete self-assessment on the SQAA Portal?",
+                     "Is there a specific time frame for schools to conduct self-assessment?",
+                     "When should schools submit their self-assessment?"],
+        "responses": ["Schools can undertake self-assessment on the SQAA Portal every year before 31st December.", 
+                      "Schools should complete self-assessment on the SQAAF Portal by 31st December each year.",
+                      "The self-assessment process on the SQAAF Portal should be completed by the end of each calendar year."
+                      ]
+    },
+    {
+        "tag": "sqaa_question_2",
+        "patterns": ["What is the Validity of Self-Assessment on SQAAF Portal?",
+                     "Does the self-assessment expire?",
+                     "How long is the self-assessment valid?"],
+        "responses": ["The self-assessment submitted on the SQAA Portal is valid for one year.",
+                      "The validity of self-assessment on the SQAAF Portal is one year from the submission date."
+                      ]
+    },
+    {
+        "tag": "sqaa_question_3",
+        "patterns": ["If a school got the scorecard in 2023 but couldn't fill SARAS portal for 2024?", 
+         "What should schools do if they missed the self-assessment for 2024?",
+          "Is there a grace period for self-assessment if a school missed the deadline?"],
+        "responses": ["For 2024, schools should fill the SQAAF from 1st April 2024 until 31st December 2024.",
+        "Schools that missed the 2024 self-assessment deadline can still complete it until 31st December."]
+    },
+    {
+        "tag": "sqaa_question_4",
+        "patterns": ["What to fill in SQAAF Portal for 2024: Self Improvement Plan or Self-Assessment?",
+        "Should schools prioritize self-assessment or self-improvement planning for 2024?",
+         "Is the self-improvement plan mandatory alongside self-assessment?"],
+        "responses": ["Both self-assessment and self-improvement plan should be filled for the same session.",
+         "For 2024, schools need to complete both self-assessment and self-improvement planning."
+]
+    },
+    {
+        "tag": "sqaa_question_5",
+        "patterns": ["How to decide the prioritized area L/M/H in Self-improvement plan?",
+        "What factors should schools consider when prioritizing improvement areas?",
+        "What criteria determine whether an area is low, medium, or high priority?"],
+        "responses": ["Schools should prioritize areas based on their improvement needs and available resources.",
+        "Prioritization should align with the school’s improvement goals and resource allocation."]
+    },
+    {
+        "tag": "sqaa_question_6",
+        "patterns": ["If only 71 out of 84 standards are applicable due to specific nature or geographical locations?",
+        "How should schools handle standards that don’t apply to their specific context?",
+        "What if certain standards are not relevant to a school’s situation?"],
+        "responses": ["Even if only 71 standards apply, schools should assess and plan for improvement based on available resources.",
+        "Schools should focus on the applicable standards and address them effectively."]
+    },
+    {
+        "tag": "sqaa_question_7",
+        "patterns": ["Does a school require Supporting Documents for Self-Assessment?",
+        "Are supporting documents necessary during self-assessment?",
+         "Should schools provide evidence or documentation for self-assessment?"],
+        "responses": ["While undertaking self-assessment, schools don't need to upload supporting documents. However, they should keep records.",
+         "Supporting documents are not required during self-assessment, but maintaining records is essential."]
+    },
+    {
+        "tag": "sqaa_question_8",
+        "patterns": ["What is Physical Quality Review of Self-Assessment?", 
+        "How does the physical quality review process work?",
+        "Who performs the physical quality review?"],
+        "responses": ["Physical Quality Review validates self-assessment and is conducted by experts for a random sample of applications.",
+          "Experts review a sample of self-assessment submissions through the physical quality review process."]
+    },
+    {
+        "tag": "sqaa_question_9",
+        "patterns": ["Is the self-assessment score made public or ranked?",
+         "Are self-assessment scores publicly disclosed?",
+         "How confidential are the self-assessment results?"],
+        "responses": ["Self-assessment scores are not made public, and no ranking of schools is done.",
+        "The self-assessment submitted by schools is not shared publicly. Schools can view their own scores after logging into the SQAAF Portal."]
+    },
+    {
+        "tag": "sqaa_question_10",
+        "patterns": ["Is 2024 self-assessment based on the timelines filled in the improvement plan?", 
+         "Do schools set improvement goals based on previous performance?",
+          "Can schools adjust their improvement plan throughout the year?"],
+        "responses": ["The self-improvement plan is continuous, and goals may be set based on previous performance and growth aspirations.",
+        "Schools can adapt their self-improvement plan as needed, considering changing circumstances."]
+    },
+    {
+        "tag": "sqaa_question_11",
+        "patterns": ["How is the disclosure of Self-Assessment handled?",
+         "Who has access to a school’s self-assessment scores?",
+          "Is there any external ranking or comparison of schools based on self-assessment?"],
+        "responses": ["The self-assessment submitted by schools is not made public. Schools can view their own scores after logging into the SQAAF Portal.",       
+        "No external ranking or comparison is done based on self-assessment scores."]
+    },
+
+    {
+        "tag": "sqaa_contact",
+        "patterns": ["Looking ahead to simplify your SQAAF process?",
+        "How can I get in touch with the Luneblaze team?",
+        "What’s the best way to contact Luneblaze for assistance?",
+        "Is there a contact email for SQAAF queries?",
+        "Where can I find contact information for SQAAF support?",
+        "Need assistance with SQAAF? How do I reach out?"],
+        "responses": ["Connect with us at: schools@luneblaze.com",
+         "You can reach out to us via email at schools@luneblaze.com.",
+         "For any SQAAF-related inquiries, feel free to email schools@luneblaze.com.",
+         "Yes, you can contact us by emailing schools@luneblaze.com.",
+          "To connect with us, use the email address schools@luneblaze.com.",
+          "For SQAAF assistance, reach out to schools@luneblaze.com."]
+    }
+
+ 
+]}
